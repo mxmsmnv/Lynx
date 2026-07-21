@@ -1,0 +1,15 @@
+{
+  "id": "default",
+  "kind": "builtIn",
+  "label": "Default (light)",
+  "description": "Neutral light profile theme that inherits the base Lynx public styles.",
+  "tags": ["light", "minimal"],
+  "preview": {
+    "accent": "#1e87f0",
+    "sampleTitle": "Jane Demo",
+    "sampleBio": "Links, blocks and multilingual profile"
+  },
+  "styles": {
+    "tailwind": {}
+  }
+}

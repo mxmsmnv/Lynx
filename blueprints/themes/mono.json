@@ -1,0 +1,19 @@
+{
+  "id": "mono",
+  "kind": "builtIn",
+  "label": "Mono",
+  "description": "Strict monochrome theme for technical, writing and developer profiles.",
+  "tags": ["light", "mono"],
+  "preview": {
+    "accent": "#000000",
+    "sampleTitle": "Jane Demo",
+    "sampleBio": "Links, blocks and multilingual profile"
+  },
+  "styles": {
+    "tailwind": {
+      "body": "bg-white text-black font-mono",
+      ".lynx-link": "bg-white text-black border-2 rounded-md",
+      ".lynx-project,.lynx-quote": "bg-white text-black border-2 rounded-md"
+    }
+  }
+}

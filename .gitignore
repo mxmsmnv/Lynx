@@ -1,0 +1,20 @@
+.DS_Store
+.idea/
+.vscode/
+
+# Local ProcessWire/site files
+site/assets/cache/
+site/assets/logs/
+site/assets/sessions/
+site/assets/files/
+site/config.php
+
+# Local env and test output
+.env
+*.log
+coverage/
+tmp/
+vendor/
+node_modules/
+dist/
+tools/

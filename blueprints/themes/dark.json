@@ -1,0 +1,20 @@
+{
+  "id": "dark",
+  "kind": "builtIn",
+  "label": "Dark",
+  "description": "High-contrast neutral dark theme for portfolios and creator pages.",
+  "tags": ["dark", "neutral"],
+  "preview": {
+    "accent": "#8b5cf6",
+    "sampleTitle": "Jane Demo",
+    "sampleBio": "Links, blocks and multilingual profile"
+  },
+  "styles": {
+    "tailwind": {
+      "body": "bg-neutral-950 text-neutral-100",
+      ".lynx-bio": "text-neutral-400",
+      ".lynx-link": "bg-neutral-900 text-neutral-100 border border-neutral-800",
+      ".lynx-project,.lynx-quote": "bg-neutral-900 text-neutral-100 border border-neutral-800"
+    }
+  }
+}

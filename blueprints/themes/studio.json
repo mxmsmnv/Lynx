@@ -1,0 +1,19 @@
+{
+  "id": "studio",
+  "kind": "customExample",
+  "label": "Studio",
+  "description": "Light studio-style custom example for calm portfolio pages.",
+  "tags": ["example", "light", "portfolio"],
+  "preview": {
+    "accent": "#1e87f0",
+    "sampleTitle": "Studio Profile",
+    "sampleBio": "Selected work, notes and launches"
+  },
+  "styles": {
+    "tailwind": {
+      "body": "bg-neutral-50 text-neutral-900",
+      ".lynx-link": "bg-white text-neutral-900 border border-neutral-200",
+      ".lynx-project,.lynx-quote": "bg-white text-neutral-900 border border-neutral-200"
+    }
+  }
+}

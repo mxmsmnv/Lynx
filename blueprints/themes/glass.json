@@ -1,0 +1,20 @@
+{
+  "id": "glass",
+  "kind": "builtIn",
+  "label": "Glass",
+  "description": "Violet editorial theme with clear panels and accent-forward links.",
+  "tags": ["color", "editorial"],
+  "preview": {
+    "accent": "#f54286",
+    "sampleTitle": "Jane Demo",
+    "sampleBio": "Links, blocks and multilingual profile"
+  },
+  "styles": {
+    "tailwind": {
+      "body": "bg-violet-700 text-white",
+      ".lynx-bio": "text-violet-100",
+      ".lynx-link": "bg-violet-500 text-white border border-violet-400",
+      ".lynx-project,.lynx-quote": "bg-white text-neutral-900 border border-violet-400"
+    }
+  }
+}

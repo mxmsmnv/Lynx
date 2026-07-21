@@ -1,0 +1,18 @@
+{
+  "id": "pill",
+  "kind": "builtIn",
+  "label": "Pill",
+  "description": "Accent-led link theme that keeps the base page styling and focuses on strong buttons.",
+  "tags": ["accent", "buttons"],
+  "preview": {
+    "accent": "#1e87f0",
+    "sampleTitle": "Jane Demo",
+    "sampleBio": "Links, blocks and multilingual profile"
+  },
+  "styles": {
+    "tailwind": {
+      ".lynx-link": "rounded-md bg-accent text-white border-0",
+      ".lynx-link i": "text-white"
+    }
+  }
+}

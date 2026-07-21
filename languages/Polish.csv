@@ -1,0 +1,216 @@
+en,pl,description,file,hash
+"%d links · %d blocks · %d views · %d clicks","%d links · %d blocks · %d views · %d clicks",,site/modules/Lynx/src/LynxEditor.php,76fe6610f3dec67c49143eed9a0fcda3
+"Accent color","Kolor akcentujący",,site/modules/Lynx/src/LynxEditor.php,175fc2dd557f01dc3e0c98f813c9b5ef
+active,aktywny,,site/modules/Lynx/LynxManager.module.php,c76a5e84e4bdee527e274ea30c680d79
+Active,Aktywny,,site/modules/Lynx/src/LynxEditor.php,4d3d769b812b6faa6b76e1a8abaece2d
+"Add image","Dodaj obraz",,site/modules/Lynx/src/LynxEditor.php,82822fc45c633a738a005ed9e0d2640b
+"Add link","Dodaj link",,site/modules/Lynx/src/LynxEditor.php,32210b37e4d23029d6ee2f5149e9c3e1
+"Add project","Dodaj projekt",,site/modules/Lynx/src/LynxEditor.php,9e7fb85d92139642c3953979ae8cee0a
+"Add project themes without editing PHP. Theme IDs must be unique and should use letters, numbers or underscores.","Dodaj motywy projektu bez edytowania PHP. Identyfikatory motywów muszą być unikalne i powinny zawierać litery, cyfry lub podkreślenia.",,site/modules/Lynx/LynxManager.module.php,5ffc0c017fe919a5701a54c627220333
+"Add quote","Dodaj cytat",,site/modules/Lynx/src/LynxEditor.php,2c2fbcc0f3fe666b09e6667747b2119c
+"Add richer sections below the link list: images, projects, video or quotes.","Dodaj bogatsze sekcje pod listą linków: obrazy, projekty, wideo lub cytaty.",,site/modules/Lynx/src/LynxEditor.php,ccbbc1a9e9f546ee5834390e6d4e5d72
+"Add video","Dodaj wideo",,site/modules/Lynx/src/LynxEditor.php,be42c759c49a8aa51d22c9286510b53e
+"Add which social?","Dodaj, który serwis społecznościowy?",,site/modules/Lynx/src/LynxEditor.php,6260cb547388e62f2e5d9d177b7b1d6c
+"All Lynx settings are available in one manager screen.","Wszystkie ustawienia Lynx są dostępne na jednym ekranie menedżera.",,site/modules/Lynx/LynxManager.module.php,3f3bac394d16afc524b4178d2e08e3a4
+Appearance,Wygląd,,site/modules/Lynx/src/LynxEditor.php,a1c58e94227389415de133efdf78ea6e
+Author,Autor,,site/modules/Lynx/src/LynxEditor.php,a517747c3d12f99244ae598910d979c5
+"Available themes","Dostępne motywy",,site/modules/Lynx/LynxManager.module.php,22d92fe2c3a7f628916daa35aecd1c94
+Avatar,Awatar,,site/modules/Lynx/src/LynxEditor.php,32036005d1f6ed59803ba3e13c80993e
+avg/profile,średnia/profil,,site/modules/Lynx/LynxManager.module.php,ee8e551afb090e941856aaf1f7de1185
+"Base language","Język podstawowy",,site/modules/Lynx/src/LynxEditor.php,9e0a11477e97adb1a0ec9ca89c9be934
+"Block titles","Blokuj tytuły",,site/modules/Lynx/src/LynxEditor.php,b7eda8007b1a5a571f5dcd19bf35efa8
+Blocks,Bloki,,site/modules/Lynx/LynxManager.module.php,04c4f9f595c4f21d1de65eb07056c15a
+"Brand name","Nazwa marki",,site/modules/Lynx/LynxManager.module.php,336bd41809f97cc8ff2c5842958c29bc
+Built-in,Wbudowany,,site/modules/Lynx/LynxManager.module.php,f09090e6eca8bb5cc1a878687719625a
+Button,Przycisk,,site/modules/Lynx/src/LynxEditor.php,87b7760f14fbff78d8819291f36ab9a0
+"Cache rendered public pages for anonymous visitors via WireCache. 0 = disabled. Pages are invalidated when profile content changes.","Pamięć podręczna renderowanych stron publicznych dla anonimowych gości za pośrednictwem WireCache. 0 = wyłączone. Strony tracą ważność w przypadku zmiany treści profilu.",,site/modules/Lynx/LynxManager.module.php,8fb55c7fa0150b95c345337dd23aed6e
+caption,podpis,,site/modules/Lynx/src/LynxEditor.php,7a7dc1cda8a5f2b4be2dcb815907d56e
+"Click history retention (days)","Przechowywanie historii kliknięć (dni)",,site/modules/Lynx/LynxManager.module.php,ff807ecd5eb2e102ec6677fde5f6ac7b
+"click rate","współczynnik klikalności",,site/modules/Lynx/LynxManager.module.php,4bd507f6e49e39124d335cd7ffeb6ecd
+Clicks,Kliknięcia,,site/modules/Lynx/LynxManager.module.php,cbdb553aaace16e77bb205e9bc3375ef
+"Clicks by link","Kliknięcia według linku",,site/modules/Lynx/LynxManager.module.php,4a2b241ab89d7b17898d5e444883b9b7
+"Clicks per day","Kliknięcia dziennie",,site/modules/Lynx/LynxManager.module.php,530767139c40ca798ef2c02d127d1c94
+Columns,Kolumny,,site/modules/Lynx/src/LynxEditor.php,168b82d33f8073018c50a4f658a02559
+"Comma-separated ISO language codes. Profiles can be served at /{root}/{lang}/{slug}.","Oddzielone przecinkami kody języków ISO. Profile można udostępniać w /{root}/{lang}/{slug}.",,site/modules/Lynx/LynxManager.module.php,37a8f8bbdaebc7a6716b9c7fe2ce95dd
+"Core identity, language and visual style for the public page.","Podstawowa tożsamość, język i styl wizualny strony publicznej.",,site/modules/Lynx/src/LynxEditor.php,f7035378d83c6183ec74d863f4420673
+"Create a ready-to-edit multilingual profile with links, blocks, scheduling and theme settings.","Utwórz gotowy do edycji wielojęzyczny profil z linkami, blokami, harmonogramem i ustawieniami motywu.",,site/modules/Lynx/LynxManager.module.php,7fcc598769d7c5bfc530b86f2b8dd7f4
+"Create new page","Utwórz nową stronę",,site/modules/Lynx/src/LynxEditor.php,0a69a91dd9f6782cd8658c06532f5002
+"Create or import profiles before exporting.","Utwórz lub zaimportuj profile przed eksportem.",,site/modules/Lynx/LynxManager.module.php,7b5850802dd26a11d51d4bf0890aa555
+"Create profile","Utwórz profil",,site/modules/Lynx/src/LynxEditor.php,c4b24a59396e1771942af28135f8bcf0
+"Create the first profile, then add links, blocks, languages and a theme.","Utwórz pierwszy profil, następnie dodaj linki, bloki, języki i motyw.",,site/modules/Lynx/src/LynxEditor.php,7af6ca4fc99e4c99ac1c20b4d2fd75ab
+"Create your first Lynx profile to publish links, media blocks and translations.","Utwórz swój pierwszy profil Lynx, aby publikować linki, bloki multimedialne i tłumaczenia.",,site/modules/Lynx/LynxManager.module.php,bebeddff3154e3de7decf1b5a44cffdf
+CTR,CTR,,site/modules/Lynx/LynxManager.module.php,ff2a7a5418a49af64a57ef3cf31d7721
+Custom,Niestandardowe,,site/modules/Lynx/LynxManager.module.php,90589c47f06eb971d548591f23c285af
+"Custom themes JSON","Motywy niestandardowe JSON",,site/modules/Lynx/LynxManager.module.php,b57f51970437eea0daafc89a7dae2efc
+"Custom themes JSON could not be parsed.","Nie można przeanalizować niestandardowych motywów JSON.",,site/modules/Lynx/LynxManager.module.php,89f6259116c741a6362eb6dd5c04ee94
+"Daily clicks (30 days)","Dzienne kliknięcia (30 dni)",,site/modules/Lynx/LynxManager.module.php,a16051bd2489eb57a982e89e0cec2deb
+"Daily clicks over the last 30 days","Dzienna liczba kliknięć w ciągu ostatnich 30 dni",,site/modules/Lynx/LynxManager.module.php,da7180d144d6ab396390d8569bab2037
+Dashboard,"Pulpit nawigacyjny",,site/modules/Lynx/LynxManager.module.php,2938c7f7e560ed972f8a4f68e80ff834
+Default,Domyślne,,site/modules/Lynx/LynxManager.module.php,7a1920d61156abc05a60135aefe8bc67
+"Default accent color","Domyślny kolor akcentu",,site/modules/Lynx/LynxManager.module.php,6baba551119e8228a6cb49e3c9e6f044
+"Default font for new profiles","Domyślna czcionka dla nowych profili",,site/modules/Lynx/LynxManager.module.php,651c5763dcd1c00fc2e8463a75ad157d
+"Default for new profiles","Wartość domyślna dla nowych profili",,site/modules/Lynx/LynxManager.module.php,b292f4809a16a885af9f794bdcb02d7e
+"Default language","Domyślny język",,site/modules/Lynx/LynxManager.module.php,c96a77fb323a41898c3b6941a58dc741
+"Default profile language","Domyślny język profilu",,site/modules/Lynx/LynxManager.module.php,276ed2c86edee62b2d9a2c6d4a58ac22
+"Default theme for new profiles","Domyślny motyw dla nowych profili",,site/modules/Lynx/LynxManager.module.php,128f433ccae66106cb4f6dc1cc6c6f83
+Description,Opis,,site/modules/Lynx/src/LynxEditor.php,b5a7adde1af5c87d7fd797b6245c2a39
+"Detailed click rows older than this are purged daily via LazyCron. Per-link totals are kept. 0 = keep forever.","Szczegółowe wiersze kliknięć starsze niż ten są usuwane codziennie przez LazyCron. Sumy przypadające na łącze są zachowywane. 0 = zachowaj na zawsze.",,site/modules/Lynx/LynxManager.module.php,6f88af96b8c2b781dcc20e7c0b075788
+"Display name","Nazwa wyświetlana",,site/modules/Lynx/src/LynxEditor.php,bc9e270b7b1a09eeac794d32b3d9dc8f
+download,pobierz,,site/modules/Lynx/LynxManager.module.php,fd456406745d816a45cae554c788e754
+"Download all profiles as a portable JSON file, or export a single profile.","Pobierz wszystkie profile jako przenośny plik JSON lub wyeksportuj pojedynczy profil.",,site/modules/Lynx/LynxManager.module.php,3bfef6db8ccd43d09c4b518314a51bcd
+edit,edytować,,site/modules/Lynx/LynxManager.module.php,de95b43bceeb4b998aed4aed5cef1ae7
+Edit,Edytuj,,site/modules/Lynx/src/LynxEditor.php,7dce122004969d56ae2e0245cb754d35
+"Edit public profiles, check their status and jump back to Lynx Manager when you need admin tools.","Edytuj profile publiczne, sprawdzaj ich status i wróć do Lynx Managera, gdy potrzebujesz narzędzi administracyjnych.",,site/modules/Lynx/src/LynxEditor.php,c5d4848c6a9acf9848e5e6da7dc738c4
+"Editing: %s","Edycja: %s",,site/modules/Lynx/src/LynxEditor.php,bc630012d4d4bd7330721d6a0fd315d7
+"Enable public pages","Włącz strony publiczne",,site/modules/Lynx/LynxManager.module.php,51ad7ffb03f3aa82fe0e83b4f4dbc6ba
+"Enable REST API","Włącz REST API",,site/modules/Lynx/LynxManager.module.php,9831726a72fcaadd86ae5137237d4414
+Error,Błąd,,site/modules/Lynx/src/LynxEditor.php,902b0d55fddef6f8d651fe1035b7d4bd
+Export,Eksportuj,,site/modules/Lynx/LynxManager.module.php,0095a9fa74d1713e43e370a7d7846224
+"Export all (%d)","Eksportuj wszystko (%d)",,site/modules/Lynx/LynxManager.module.php,a2157b78b8481ca1cfefe952be20e0d7
+"Export profiles","Eksportuj profile",,site/modules/Lynx/LynxManager.module.php,117bb1370b9225ed229f9f167e2943f7
+Font,Czcionka,,site/modules/Lynx/src/LynxEditor.php,194f5394ae2e9c74dc3c441b92862d1d
+Heading,Nagłówek,,site/modules/Lynx/src/LynxEditor.php,0101316665d4f82adaa26d86fbbb2d6e
+"Hex color used by themes that reference var(--lynx-accent).","Kolor szesnastkowy używany w motywach odwołujących się do var(--lynx-accent).",,site/modules/Lynx/LynxManager.module.php,84ec45145026d09c84103abbdabf941a
+hidden,ukryty,,site/modules/Lynx/LynxManager.module.php,662f707d5491e9bce8238a6c0be92190
+icon,ikona,,site/modules/Lynx/src/LynxEditor.php,baec6461b0d69dde1b861aefbe375d8a
+Image,Obraz,,site/modules/Lynx/src/LynxEditor.php,be53a0541a6d36f6ecb879fa2c584b08
+"Image gallery","Galeria zdjęć",,site/modules/Lynx/src/LynxContent.php,642fa08fba951378dca25cf328a60b56
+"image URL or upload","obraz URL lub prześlij",,site/modules/Lynx/src/LynxEditor.php,fba8a0cdef26b485b47038c91f76794c
+Import,Importuj,,site/modules/Lynx/LynxManager.module.php,72d6d7a1885885bb55a565fd1070581a
+"Import profiles","Importuj profile",,site/modules/Lynx/LynxManager.module.php,0c3701cd017935bef96462fa57f3e933
+"Install demo","Zainstaluj wersję demonstracyjną",,site/modules/Lynx/LynxManager.module.php,27408872be41239d8318a8c67375fa7b
+"Install demo profile","Zainstaluj profil demonstracyjny",,site/modules/Lynx/LynxManager.module.php,d5375845b4948e986b351e515b2f0f8f
+"ISO language code used when a profile does not specify its own base language.","Kod języka ISO używany, gdy profil nie określa własnego języka podstawowego.",,site/modules/Lynx/LynxManager.module.php,f59cb1095e2fb4599daa7f179137c74e
+"Keep the default language in this list. Unsupported language requests fall back to the profile base language.","Zachowaj domyślny język na tej liście. Nieobsługiwane żądania języka wracają do podstawowego języka profilu.",,site/modules/Lynx/LynxManager.module.php,6ce6c299708377c65f75e4318b9b379e
+Label,Etykieta,,site/modules/Lynx/src/LynxEditor.php,b021df6aac4654c454f46c77646e745f
+Lang,Lang,,site/modules/Lynx/LynxManager.module.php,263ab2eac2168d940fe76675ef8b3081
+Language,Język,,site/modules/Lynx/src/LynxEditor.php,4994a8ffeba4ac3140beb89e8d41f174
+Languages,Języki,,site/modules/Lynx/LynxManager.module.php,3a08e2e340ab29fd9263af48193cbf8e
+"Leave empty for no global footer credit.","Pozostaw puste, aby nie otrzymać globalnego kredytu w stopce.",,site/modules/Lynx/LynxManager.module.php,6ee9b026cb3e71979982bd83af7658f0
+Link,Link,,site/modules/Lynx/LynxManager.module.php,97e7c9a7d06eac006a28bf05467fcc8b
+"Link labels","Etykiety linków",,site/modules/Lynx/src/LynxEditor.php,daee975c4395b45a46fe24eb7e0c9f84
+"Link URL","Połącz URL",,site/modules/Lynx/src/LynxEditor.php,5e4e1bd6f922fed062b62c446ca34f84
+Links,Linki,,site/modules/Lynx/src/LynxEditor.php,bd908db5ccb07777ced8023dffc802f4
+links,linki,,site/modules/Lynx/LynxManager.module.php,807765384d9d5527da8848df14a4f02f
+"Live preview","Podgląd na żywo",,site/modules/Lynx/src/LynxEditor.php,7d0b61c6d390f6bc65400d474038b1f5
+"Lynx settings","Ustawienia Lynx",,site/modules/Lynx/LynxManager.module.php,638c8226b16d9bad2648ff2ffabd0f08
+"Lynx settings saved.","Ustawienia Lynx zostały zapisane.",,site/modules/Lynx/LynxManager.module.php,b1a60dcdded6cc092b211e8a7d689acb
+"Manage public routes, API behavior, analytics, languages, profile defaults and custom themes in one place.","Zarządzaj trasami publicznymi, zachowaniem API, analityką, językami, domyślnymi ustawieniami profili i niestandardowymi motywami w jednym miejscu.",,site/modules/Lynx/LynxManager.module.php,c1b78e29db7040de365f1f8d65469305
+"My pages","Moje strony",,site/modules/Lynx/src/LynxEditor.php,f3518507a6c06d22116ea4537c1df949
+"Need to change routes, languages, defaults or themes?","Chcesz zmienić trasy, języki, ustawienia domyślne lub motywy?",,site/modules/Lynx/LynxManager.module.php,f8b4ae3fb0b2f15f410794a979cb48ef
+"Network error","Błąd sieci",,site/modules/Lynx/src/LynxEditor.php,42cd08444ffd9823bf4a06c4e5f8dec6
+"New profile","Nowy profil",,site/modules/Lynx/LynxManager.module.php,997517644b4f6fefdb597993958f8265
+"No data yet","Brak danych",,site/modules/Lynx/LynxManager.module.php,ed532b409c1373ba1e586e65d01ce0ed
+"No profiles to export","Brak profili do wyeksportowania",,site/modules/Lynx/LynxManager.module.php,e3a5e3daaab8e0cec6ddee80200ab34b
+"No profiles yet","Nie ma jeszcze profili",,site/modules/Lynx/LynxManager.module.php,9c2aaad3118f130be1f2845386086e48
+open,otwarte,,site/modules/Lynx/src/LynxEditor.php,7cef8a734855777c2a9d0caf42666e69
+Open,Otwórz,,site/modules/Lynx/src/LynxEditor.php,c3bf447eabe632720a3aa1a7ce401274
+"Open admin","Otwórz administratora",,site/modules/Lynx/src/LynxEditor.php,7d5373405d97b499e946b2d3e8496843
+"Open settings","Otwórz ustawienia",,site/modules/Lynx/LynxManager.module.php,bae08226d065231df6f01b08cd681c9b
+"Open-source font loaded from Bunny Fonts on public pages. System UI makes no external font request.","Czcionka typu open source ładowana z Bunny Fonts na stronach publicznych. Interfejs systemowy nie wysyła żądania czcionek zewnętrznych.",,site/modules/Lynx/LynxManager.module.php,13065582b7c255d0eaa34aad80d77fd5
+Paused,Wstrzymano,,site/modules/Lynx/src/LynxEditor.php,e99180abf47a8b3a856e0bcb2656990a
+Peak,Szczyt,,site/modules/Lynx/LynxManager.module.php,a21e600ebbe2eab6697e3087ee1fdb9f
+Portfolio,Portfel,,site/modules/Lynx/src/LynxEditor.php,d4f859a96c13f551a2771b7fc3a78d38
+"Preview built-in and custom themes. Pick one per profile in the profile editor's Appearance section.","Podgląd motywów wbudowanych i niestandardowych. Wybierz po jednym dla każdego profilu w sekcji Wygląd edytora profili.",,site/modules/Lynx/LynxManager.module.php,1e8fbd1d7d93299b798359829974fb73
+"Primary destinations shown before content blocks. Drag to reorder.","Główne miejsca docelowe wyświetlane przed blokami treści. Przeciągnij, aby zmienić kolejność.",,site/modules/Lynx/src/LynxEditor.php,6113fbfcaa354c3d5e3a4a5b1715164f
+Profile,Profil,,site/modules/Lynx/src/LynxEditor.php,cce99c598cfdb9773ab041d54c3d973a
+"Profile bio","Biografia profilu",,site/modules/Lynx/src/LynxEditor.php,1a0c8b45fd5999c5f63ad086586d64f6
+"Profile defaults and themes","Domyślne ustawienia profilu i motywy",,site/modules/Lynx/LynxManager.module.php,c8ea085640cc91c948724e94fd25df4c
+"Profile slug","Ślimak profilowy",,site/modules/Lynx/src/LynxEditor.php,08fc5c6cb2a67e7e491513fb6fdbc597
+"Profile stats","Statystyki profilu",,site/modules/Lynx/LynxManager.module.php,7339f4a6cfa5eb0ecfb0dbae1afc74f1
+"Profile title","Tytuł profilu",,site/modules/Lynx/src/LynxEditor.php,065de8e44a9ce1fb046b0cfe5d0c60ff
+"Profile views","Widoki profilu",,site/modules/Lynx/LynxManager.module.php,ff6ca4d7752aac4721b34783e27bba70
+Profiles,Profile,,site/modules/Lynx/LynxManager.module.php,d0f25115288c15321ecf672f0d6a83ea
+profiles,profile,,site/modules/Lynx/LynxManager.module.php,d970728376beb137057865c63baa822f
+"Profiles are served at /{segment}/{slug}. Leave blank to serve them from /{slug}.","Profile są udostępniane w /{segment}/{slug}. Pozostaw puste, aby podawać je z /{slug}.",,site/modules/Lynx/LynxManager.module.php,3c1960ad8e6c7f1ba0c8f0b1b8be70a8
+"Project card","Karta projektu",,site/modules/Lynx/src/LynxContent.php,405918c6c6fe181fe2f327a85aee93ea
+"Public page cache (seconds)","Pamięć podręczna strony publicznej (sekundy)",,site/modules/Lynx/LynxManager.module.php,a0c735c9c4eb6c14a7f79c109ecbf042
+"Public profiles","Profile publiczne",,site/modules/Lynx/LynxManager.module.php,5d647f9d5891c440f2cbfc4dd7379f38
+"Public root","Korzeń publiczny",,site/modules/Lynx/LynxManager.module.php,a3849d1c7b7bde52a149b686af92c7e4
+"Public root segment","Publiczny segment główny",,site/modules/Lynx/LynxManager.module.php,8bf10e7e67d6c37934ad1f41a3d99e10
+"Public routes, API and analytics","Drogi publiczne, API i analityka",,site/modules/Lynx/LynxManager.module.php,be7ff6864bc02fee816637b2d34650b9
+Publishing,Publikowanie,,site/modules/Lynx/LynxManager.module.php,9fb1f5afe9ff67d5c606041aca565287
+"Quote text","Tekst cytatu",,site/modules/Lynx/src/LynxEditor.php,064f2182f6decb50a51017f04a4750e7
+"Records redirect clicks for analytics. Public preview requests do not count as views.","Rejestruje kliknięcia przekierowania do celów analitycznych. Żądania publicznego podglądu nie liczą się jako wyświetlenia.",,site/modules/Lynx/LynxManager.module.php,7e624d9afe7d6889c85ec34140ebc2d7
+Remove,Usuń,,site/modules/Lynx/src/LynxEditor.php,1063e38cb53d94d386f21227fcd84717
+"Resize editor and preview","Zmień rozmiar edytora i podglądu",,site/modules/Lynx/src/LynxEditor.php,57558789b00b2fb2878811addd965bed
+"REST API","REST API",,site/modules/Lynx/LynxManager.module.php,aba3d4b49c454e1974970e7b5514b001
+"Review public profiles, activity and publishing status.","Przeglądaj profile publiczne, aktywność i status publikacji.",,site/modules/Lynx/LynxManager.module.php,e7fd0ef5cbc864781adf7fb35aa1c063
+Role,Rola,,site/modules/Lynx/src/LynxEditor.php,bbbabdbe1b262f75d99d62880b953be1
+Save,Zapisz,,site/modules/Lynx/src/LynxEditor.php,c9cc8cce247e49bae79f15173ce97354
+"Save settings","Zapisz ustawienia",,site/modules/Lynx/LynxManager.module.php,d4dccb8ca2dac4e53c01bd9954755332
+Saved,Zapisano,,site/modules/Lynx/src/LynxEditor.php,248336101b461380a4b2391a7625493d
+Saving…,Zapisuję…,,site/modules/Lynx/src/LynxEditor.php,eedf6b8bfc83284c3294ec4b38188e8a
+"Section title (optional)","Tytuł sekcji (opcjonalnie)",,site/modules/Lynx/src/LynxEditor.php,8197536b7dbc7d81e3f6f55d2f9fb89b
+"SEO description","Opis SEO",,site/modules/Lynx/src/LynxEditor.php,5e80ff6b42ba7ac082f4e837e55f3773
+"SEO title","Tytuł SEO",,site/modules/Lynx/src/LynxEditor.php,5bf2d0d13c985f44ca2569d30c966639
+Settings,Ustawienia,,site/modules/Lynx/LynxManager.module.php,f4f70727dc34561dfde1a3c529b6205c
+"Short bio","Krótka biografia",,site/modules/Lynx/src/LynxEditor.php,c6e972eaba197fe193f88d4717b91010
+"Shown as a small footer credit on public profile pages when filled.","Po wypełnieniu wyświetlany jako mały kredyt w stopce na stronach profili publicznych.",,site/modules/Lynx/LynxManager.module.php,b8719813cd8f62b714b35bfd75008fbc
+"Site root","Katalog główny witryny",,site/modules/Lynx/LynxManager.module.php,8104764c9e47b48fbca8b4365109bf94
+Slug,Ślimak,,site/modules/Lynx/LynxManager.module.php,0c908588520b3ef787bce443fc2b507c
+"Social presets","Wstępne ustawienia społecznościowe",,site/modules/Lynx/src/LynxEditor.php,81aabb6fef4856433b1e4be623401bd7
+stats,statystyki,,site/modules/Lynx/LynxManager.module.php,446501053769c06c565094b26d26e8ef
+Status,Stan,,site/modules/Lynx/LynxManager.module.php,ec53a8c4f07baed5d8825072c89799be
+"Supported public languages","Obsługiwane języki publiczne",,site/modules/Lynx/LynxManager.module.php,d6fd1ecdea2ce8841d3326151abf350e
+"Testimonial / quote",Recenzja/cytat,,site/modules/Lynx/src/LynxContent.php,7061c92304d091d2e12e5d06d793b9d3
+Theme,Motyw,,site/modules/Lynx/src/LynxEditor.php,d721757161f7f70c5b0949fdb6ec2c30
+"Theme gallery","Galeria tematyczna",,site/modules/Lynx/LynxManager.module.php,4224e18028388126b8cc01ab86edaa5d
+"Theme settings","Ustawienia motywu",,site/modules/Lynx/LynxManager.module.php,55b8deb25fdc0f8b628027f7d1d21cbe
+"Theme, accent and open-source font for the public page.","Motyw, akcent i czcionka typu open source dla strony publicznej.",,site/modules/Lynx/src/LynxEditor.php,bc6bc3de3fbb4c28c8887057b459fd58
+Themes,Motywy,,site/modules/Lynx/LynxManager.module.php,83915d1254927f41241e8630890bec6e
+"These defaults apply to newly created profiles. Existing profiles keep their own selections.","Te wartości domyślne dotyczą nowo utworzonych profili. Istniejące profile zachowują własne wybory.",,site/modules/Lynx/LynxManager.module.php,8964183f34cb8216a0ded5015ddd806f
+"These settings control where profiles are served and what public data is available.","Te ustawienia kontrolują, gdzie są udostępniane profile i jakie dane publiczne są dostępne.",,site/modules/Lynx/LynxManager.module.php,f96ce7b187d5628a8d6d265d668b8fe2
+Title,Tytuł,,site/modules/Lynx/LynxManager.module.php,b78a3223503896721cca1303f776159b
+Today,Dzisiaj,,site/modules/Lynx/LynxManager.module.php,1dd1c5fb7f25cd41b291d43a89e3aefd
+"Top by clicks","Najwyżej według kliknięć",,site/modules/Lynx/LynxManager.module.php,816d03809335c71ef74ca7141861072e
+"Top by views","Na górze według wyświetleń",,site/modules/Lynx/LynxManager.module.php,9b161f82969852e489a23309de8aa324
+Total,Razem,,site/modules/Lynx/LynxManager.module.php,96b0141273eabab320119c467cdcaf17
+"Total clicks","Łączna liczba kliknięć",,site/modules/Lynx/LynxManager.module.php,dfe69c87a315e85e759b349522448743
+"Track link clicks","Śledź kliknięcia linków",,site/modules/Lynx/LynxManager.module.php,78c9095d84f5a2c50b215d6fd349805c
+Translations,Tłumaczenia,,site/modules/Lynx/src/LynxEditor.php,0b8d92bc19b720bb1065649535463409
+Unknown,Nieznany,,site/modules/Lynx/src/LynxEditor.php,88183b946cc5f0e8c96b2e66e1c74a7e
+"Unsaved changes","Niezapisane zmiany",,site/modules/Lynx/src/LynxEditor.php,c227ad77f168e7fd3e21583b324eddf4
+"Untitled link","Link bez tytułu",,site/modules/Lynx/src/LynxEditor.php,46ac7bf858b1c4f4a8a1813357141358
+Updated,Zaktualizowano,,site/modules/Lynx/LynxManager.module.php,ff0a3b7f3daef040faf89a88fdac01b7
+Upload,Prześlij,,site/modules/Lynx/src/LynxEditor.php,91412465ea9169dfd901dd5e7c96dd99
+"Upload failed","Przesyłanie nie powiodło się",,site/modules/Lynx/src/LynxEditor.php,299cb00a7a52f5147beda49090e08541
+"Upload or paste a Lynx JSON export. Use overwrite only when replacing known profiles.","Prześlij lub wklej eksport Lynx JSON. Zastąpuj tylko w przypadku zastępowania znanych profili.",,site/modules/Lynx/LynxManager.module.php,f090cb51518062008ab5da55420953f4
+Uploading…,Przesyłanie…,,site/modules/Lynx/src/LynxEditor.php,adeb2359b7930f63db78324162d40aa7
+"Use a full hex value such as #1e87f0.","Użyj pełnej wartości szesnastkowej, takiej jak #1e87f0.",,site/modules/Lynx/LynxManager.module.php,2ed1fb1266bba96d1eed2d462bab7298
+"Use a JSON map with styles.tailwind selector utilities or styles.css. More blueprints live in blueprints/themes/.","Użyj mapy JSON z narzędziami selektora Style.tailwind lub Style.css. Więcej planów znajduje się w planach/motywach/.",,site/modules/Lynx/LynxManager.module.php,cd41521774cbff46b73efb7717c962e2
+"Use a short lowercase slug. You can edit the profile details on the next screen.","Użyj krótkiego ślimaka z małych liter. Możesz edytować szczegóły profilu na następnym ekranie.",,site/modules/Lynx/src/LynxEditor.php,373566ee21c60454b10ce228bfdb1c95
+"Use in profile","Użyj w profilu",,site/modules/Lynx/LynxManager.module.php,ac454f63cbd69527467dbced3e0a6ec6
+"Used only when creating a new profile. Existing profiles keep their selected theme.","Używane tylko podczas tworzenia nowego profilu. Istniejące profile zachowują wybrany motyw.",,site/modules/Lynx/LynxManager.module.php,b24b06250cd4cd80ac61f171df6d42a1
+"Video embed","Osadzanie wideo",,site/modules/Lynx/src/LynxContent.php,4a1355fa2b1e6e2504fe0b0396b436a8
+View,Zobacz,,site/modules/Lynx/src/LynxEditor.php,4351cfebe4b61d8aa5efa1d020710005
+Views,Widoki,,site/modules/Lynx/LynxManager.module.php,ed4832a84ee072b00a6740f657183598
+"When off, profile routes return not found while admin management and stored data remain available.","Gdy opcja ta jest wyłączona, trasy profili nie zostaną znalezione, podczas gdy zarządzanie administracyjne i przechowywane dane pozostaną dostępne.",,site/modules/Lynx/LynxManager.module.php,3e4a2eaf486e66ca069e52668a29f0f5
+"When on, active public profiles are exposed through /{root}/api endpoints.","Gdy ta opcja jest włączona, aktywne profile publiczne są udostępniane przez punkty końcowe /{root}/api.",,site/modules/Lynx/LynxManager.module.php,8b89ee5afa1176c2da7c9e3aca008d89
+"You don't have access to this page.","Nie masz dostępu do tej strony.",,site/modules/Lynx/src/LynxEditor.php,de45ace667916bbeead1992d229a5dea
+"You don't have any pages yet.","Nie masz jeszcze żadnych stron.",,site/modules/Lynx/src/LynxEditor.php,4faf91348ce30eee28adf26851aa02a3
+"YouTube / Vimeo URL","YouTube / Vimeo URL",,site/modules/Lynx/src/LynxEditor.php,0f63600c144f1ca7e0342e1ba3d22733
+"Use one profile as the homepage","Użyj jednego profilu jako strony głównej",,site/modules/Lynx/LynxManager.module.php,93370a0ff03509a9b0f371804770672b
+"For a one-profile website, render a Lynx profile directly from a ProcessWire template such as site/templates/home.php.","Dla witryny z jednym profilem wyrenderuj profil Lynx bezpośrednio z szablonu ProcessWire, np. site/templates/home.php.",,site/modules/Lynx/LynxManager.module.php,b144b5e99a5052a810916def53eb2f82
+"Replace max with the profile slug you want to publish on the homepage. Public Lynx routes can stay enabled or be used only for editor previews.","Zastąp max slugiem profilu, który chcesz opublikować na stronie głównej. Publiczne trasy Lynx mogą pozostać włączone albo służyć tylko do podglądów edytora.",,site/modules/Lynx/LynxManager.module.php,76bebcc6db46da676c924c0371de12da
+"Install demo profiles","Zainstaluj profile demonstracyjne",,site/modules/Lynx/LynxManager.module.php,e67e2bb7532cd1ab31627d0b00fee746
+"Create a ready-to-edit set of multilingual public profiles with links, blocks, scheduling, theme settings and open-source fonts.","Utwórz gotowy do edycji zestaw wielojęzycznych profili publicznych z linkami, blokami, harmonogramem, motywami i fontami open source.",,site/modules/Lynx/LynxManager.module.php,304a1e2755d85d808ec35bed45deeb77
+"What gets installed","Co zostanie zainstalowane",,site/modules/Lynx/LynxManager.module.php,2c4cc9a7b1a22102e2a435c5ab90ea73
+"The demo package is designed for testing a production-shaped setup: different regions, base languages, themes, fonts, translated labels and mixed content blocks.","Pakiet demo służy do testowania konfiguracji zbliżonej do produkcyjnej: różne regiony, języki bazowe, motywy, fonty, przetłumaczone etykiety i mieszane bloki treści.",,site/modules/Lynx/LynxManager.module.php,4bf2b580197372a50d4d09259c7705b3
+"Import behavior","Zachowanie importu",,site/modules/Lynx/LynxManager.module.php,c0b6ce2bb2979fe08bf9671c475ff475
+"With overwrite off, existing slugs are preserved and imported copies receive -2, -3 suffixes. Enable overwrite only when refreshing demo content on a development site.","Przy wyłączonym nadpisywaniu istniejące slugi pozostają bez zmian, a importowane kopie dostają sufiksy -2, -3. Włącz nadpisywanie tylko przy odświeżaniu demo na stronie deweloperskiej.",,site/modules/Lynx/LynxManager.module.php,c271588ee53511fdca8a7fc622ebf16d
+Region,Region,,site/modules/Lynx/LynxManager.module.php,f447ac856e7e72435904956e3b15f433
+"Install these profiles into the current site. They remain editable in Lynx Manager and the front-end editor after import.","Zainstaluj te profile w bieżącej stronie. Po imporcie można je nadal edytować w Lynx Manager i edytorze front-end.",,site/modules/Lynx/LynxManager.module.php,c330a98e5f9a6da745ec823ebb8421f4
+"Delete this profile and all its links, blocks and click history?","Usunąć ten profil wraz ze wszystkimi linkami, blokami i historią kliknięć?",,site/modules/Lynx/LynxManager.module.php,5279831613493a901e98e1d5fa206ff9
+delete,usuń,,site/modules/Lynx/LynxManager.module.php,099af53f601532dbd31e0ea99ffdeb64
+"Invalid CSRF token.","Nieprawidłowy token CSRF.",,site/modules/Lynx/LynxManager.module.php,9ba8da419f01d0c1b27e666e6101f589
+"Profile not found.","Nie znaleziono profilu.",,site/modules/Lynx/LynxManager.module.php,bd6971db0a8b007ea18e30a504f56eef
+"Deleted profile: %s","Usunięto profil: %s",,site/modules/Lynx/LynxManager.module.php,3778c11aedc56f414dbeb33e6f357e50
+Background,Tło,,site/modules/Lynx/src/LynxEditor.php,a9ded1e5ce5d75814730bb4caaf49419
+"Background type","Typ tła",,site/modules/Lynx/src/LynxEditor.php,138601ff53566fa4484c49830e45f7c7
+"Theme default","Domyślne z motywu",,site/modules/Lynx/src/LynxEditor.php,618acef20de1e3f5b6d4377473c9a54c
+Color,Kolor,,site/modules/Lynx/src/LynxEditor.php,cb5feb1b7314637725a2e73bdc9f7295
+"Image URL","URL obrazu",,site/modules/Lynx/src/LynxEditor.php,427b6d816d7fdd86cabe48d8180a3cc9
+"Gradient CSS","Gradient CSS",,site/modules/Lynx/src/LynxEditor.php,f19a4cd9e66dde8c98bae89a430aa1ed
+"Background value","Wartość tła",,site/modules/Lynx/src/LynxEditor.php,acd31a3c06e429936f730d19da6fc4fd
+"Use a color, uploaded image URL, or CSS gradient for the public page background.","Użyj koloru, adresu URL przesłanego obrazu albo gradientu CSS jako tła publicznej strony.",,site/modules/Lynx/src/LynxEditor.php,179c2c553e0b5c89da372d5dc0c77bf9

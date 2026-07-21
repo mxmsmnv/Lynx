@@ -1,0 +1,15 @@
+{
+  "id": "terminal",
+  "kind": "customExample",
+  "label": "Terminal",
+  "description": "Dark terminal-style custom example for technical profiles.",
+  "tags": ["example", "dark", "mono"],
+  "preview": {
+    "accent": "#2a5d3d",
+    "sampleTitle": "Terminal Profile",
+    "sampleBio": "Systems, code and release notes"
+  },
+  "styles": {
+    "css": "body{background:#0b0f0d;color:#d7ffe6}.lynx-bio{color:#9fd8b6}.lynx-link{background:#111a15;color:#d7ffe6;border:1px solid #2a5d3d;font-family:'SFMono-Regular',Menlo,monospace}.lynx-project,.lynx-quote{background:#111a15;color:#d7ffe6;border:1px solid #2a5d3d}"
+  }
+}

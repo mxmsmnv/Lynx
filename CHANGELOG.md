@@ -5,6 +5,16 @@ All notable changes to Lynx are documented here. The format is based on
 semantic versioning; ProcessWire module metadata uses the equivalent integer
 version.
 
+## [1.0.1] - 2026-09-26
+
+### Fixed
+- Use ProcessWire's portable schema introspection API during upgrades instead
+  of querying MySQL's `information_schema` directly.
+- Keep legacy profile deletion compatible with SQLite and PostgreSQL by using
+  a portable subquery rather than MySQL's `DELETE ... JOIN` syntax.
+- Skip unsupported post-install foreign-key additions on SQLite while retaining
+  the constraints on fresh installs and explicit cascade cleanup on upgrades.
+
 ## [1.0.0] - 2026-07-21
 
 First public release.

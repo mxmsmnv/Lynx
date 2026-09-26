@@ -52,7 +52,7 @@ class Lynx extends Process implements Module, ConfigurableModule {
         return array(
             'title'      => 'Lynx',
             'summary'    => 'Multi-profile link-in-bio pages with admin UI, REST API and render method.',
-            'version'    => 100,
+            'version'    => 101,
             'author'     => 'Maxim Semenov',
             'icon'       => 'link',
             'requires'   => array('ProcessWire>=3.0.244', 'PHP>=8.3'),

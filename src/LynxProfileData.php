@@ -140,9 +140,9 @@ trait LynxProfileData {
         try {
             // Keep explicit deletes for compatibility with existing installs
             // that predate the foreign keys added by v119.
-            $db->prepare("DELETE c FROM " . self::TABLE_CLICKS . " c
-                JOIN " . self::TABLE_LINKS . " l ON l.id = c.link_id
-                WHERE l.profile_id = :p")->execute(array(':p' => $id));
+            $db->prepare("DELETE FROM " . self::TABLE_CLICKS . "
+                WHERE link_id IN (SELECT id FROM " . self::TABLE_LINKS . " WHERE profile_id = :p)")
+                ->execute(array(':p' => $id));
             $db->prepare("DELETE FROM " . self::TABLE_LINKS . " WHERE profile_id=:p")->execute(array(':p' => $id));
             $db->prepare("DELETE FROM " . self::TABLE_BLOCKS . " WHERE profile_id=:p")->execute(array(':p' => $id));
             $db->prepare("DELETE FROM " . self::TABLE_PROFILES . " WHERE id=:id")->execute(array(':id' => $id));

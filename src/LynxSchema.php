@@ -102,30 +102,33 @@ trait LynxSchema {
     public function ___upgrade($fromVersion, $toVersion) {
         $db = $this->wire('database');
         $add = function($table, $col, $def) use ($db) {
-            $q = $db->prepare("SELECT COUNT(*) FROM information_schema.COLUMNS
-                WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = :t AND COLUMN_NAME = :c");
-            $q->execute(array(':t' => $table, ':c' => $col));
-            if(!$q->fetchColumn()) $db->exec("ALTER TABLE $table ADD COLUMN $col $def");
+            if(!$db->columnExists($table, $col)) {
+                $db->exec("ALTER TABLE $table ADD COLUMN $col $def");
+            }
         };
         $addIndex = function($table, $name, $columns) use ($db) {
-            $q = $db->prepare("SELECT COUNT(*) FROM information_schema.STATISTICS
-                WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = :t AND INDEX_NAME = :n");
-            $q->execute(array(':t' => $table, ':n' => $name));
-            if(!$q->fetchColumn()) $db->exec("ALTER TABLE $table ADD INDEX $name ($columns)");
+            if(!$db->indexExists($table, $name)) {
+                $db->exec("ALTER TABLE $table ADD INDEX $name ($columns)");
+            }
         };
         // Existing installations may contain legacy orphan rows. Add foreign
         // keys only when doing so is non-destructive; explicit delete logic
         // remains in place for installs where a constraint cannot be added.
         $addForeignKey = function($table, $name, $column, $parent, $parentColumn = 'id') use ($db) {
-            $q = $db->prepare("SELECT COUNT(*) FROM information_schema.REFERENTIAL_CONSTRAINTS
-                WHERE CONSTRAINT_SCHEMA = DATABASE() AND TABLE_NAME = :t AND CONSTRAINT_NAME = :n");
-            $q->execute(array(':t' => $table, ':n' => $name));
-            if($q->fetchColumn()) return;
+            // SQLite cannot add a table-level foreign key with ALTER TABLE.
+            // Fresh installs already receive these constraints in CREATE TABLE,
+            // while explicit delete logic protects upgraded legacy installs.
+            if(method_exists($db, 'dialect') && $db->dialect()->name() === 'sqlite') return;
             $orphans = (int) $db->query("SELECT COUNT(*) FROM $table c LEFT JOIN $parent p
                 ON p.$parentColumn = c.$column WHERE p.$parentColumn IS NULL")->fetchColumn();
             if($orphans === 0) {
-                $db->exec("ALTER TABLE $table ADD CONSTRAINT $name FOREIGN KEY ($column)
-                    REFERENCES $parent ($parentColumn) ON DELETE CASCADE");
+                try {
+                    $db->exec("ALTER TABLE $table ADD CONSTRAINT $name FOREIGN KEY ($column)
+                        REFERENCES $parent ($parentColumn) ON DELETE CASCADE");
+                } catch(\Throwable $e) {
+                    // Upgrade is idempotent when a prior release already added it.
+                    if(!preg_match('/already exists|duplicate/i', $e->getMessage())) throw $e;
+                }
             }
         };
         $p = self::TABLE_PROFILES;

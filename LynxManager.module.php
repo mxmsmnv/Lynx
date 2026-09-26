@@ -34,7 +34,7 @@ class LynxManager extends Process implements Module, ConfigurableModule {
         return array(
             'title'    => 'Lynx Manager',
             'summary'  => 'Dashboard, global settings and export/import tools for the Lynx link-in-bio module.',
-            'version'  => 100,
+            'version'  => 101,
             'author'   => 'Maxim Semenov',
             'icon'     => 'sliders',
             'requires' => array('Lynx', 'ProcessWire>=3.0.244', 'PHP>=8.3'),
